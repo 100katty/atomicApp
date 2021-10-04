@@ -4325,6 +4325,11 @@
   "resolved" "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz"
   "version" "4.0.8"
 
+"lodash.isequal@^4.5.0":
+  "integrity" "sha1-QVxEePK8wwEgwizhDtMib30+GOA="
+  "resolved" "https://registry.npmjs.org/lodash.isequal/-/lodash.isequal-4.5.0.tgz"
+  "version" "4.5.0"
+
 "lodash.throttle@^4.1.1":
   "integrity" "sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ="
   "resolved" "https://registry.npmjs.org/lodash.throttle/-/lodash.throttle-4.1.1.tgz"
@@ -5408,6 +5413,11 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
+"react-native-animated-progress@^1.0.1":
+  "integrity" "sha512-cDnEF4QF8I9StpdayJxhWshggS1PkG4jJ6CsnAARQhhLo1V+gY/tby6MkxUa46zxw27slSC29SX9AjG4ll4JQw=="
+  "resolved" "https://registry.npmjs.org/react-native-animated-progress/-/react-native-animated-progress-1.0.1.tgz"
+  "version" "1.0.1"
+
 "react-native-codegen@^0.0.7":
   "integrity" "sha512-dwNgR8zJ3ALr480QnAmpTiqvFo+rDtq6V5oCggKhYFlRjzOmVSFn3YD41u8ltvKS5G2nQ8gCs2vReFFnRGLYng=="
   "resolved" "https://registry.npmjs.org/react-native-codegen/-/react-native-codegen-0.0.7.tgz"
@@ -5428,13 +5438,14 @@
     "invariant" "^2.2.4"
     "prop-types" "^15.7.2"
 
-"react-native-reanimated@^2.2.2":
-  "integrity" "sha512-Lfv4ogbNLU9x3DqhXUFza9pnzyTvPrw5xGC1wWA6aGXqZgyaikNLgC5dNWzxVbfEwRdOuLPFsai3LAcIM92TCg=="
-  "resolved" "https://registry.npmjs.org/react-native-reanimated/-/react-native-reanimated-2.2.2.tgz"
-  "version" "2.2.2"
+"react-native-reanimated@^2.3.0-alpha.2":
+  "integrity" "sha512-SpzW1rPMjpy7dMEKo30873pmgj0cgczBgUHvrOKKCCPJbaQXR6w6pOGrTW5M6BQtM8zpIPPwSJN+p3G9W49aiA=="
+  "resolved" "https://registry.npmjs.org/react-native-reanimated/-/react-native-reanimated-2.3.0-alpha.2.tgz"
+  "version" "2.3.0-alpha.2"
   dependencies:
     "@babel/plugin-transform-object-assign" "^7.10.4"
-    "fbjs" "^3.0.0"
+    "invariant" "^2.2.4"
+    "lodash.isequal" "^4.5.0"
     "mockdate" "^3.0.2"
     "string-hash-64" "^1.0.3"
 

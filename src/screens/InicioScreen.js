@@ -1,7 +1,8 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import {Image, Text, View, StyleSheet, ImageBackground, SafeAreaView, ScrollView, KeyboardAvoidingView, TouchableOpacity} from 'react-native';
+import {Image, Text, View, StyleSheet, ScrollView, TouchableOpacity} from 'react-native';
 import { Background } from '../components/Background';
+import { FlatlistPersonas } from '../components/FlatlistPersonas';
 import { TextNuestro } from '../components/TextNuestro';
 import { TextSomos } from '../components/TextSomos';
 import { TextTe } from '../components/TextTe';
@@ -39,6 +40,7 @@ export const InicioScreen = () => {
               <Text>Quiero ser parte</Text>
           </TouchableOpacity>
          <TextNuestro/>
+         <FlatlistPersonas/>
         </View>
     </ScrollView>
     
